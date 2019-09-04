@@ -145,26 +145,4 @@ if __name__ == '__main__':
         else:
 
             talk('Next Command! Please!')
-            # Input = Input
-            # talk('Searching...')
-            # try:
-            #     try:
-            #         res = client.Input(Input)
-            #         outputs = next(res.outputs).text
-            #         talk('Alpha says')
-            #         talk('Gotcha')
-            #         talk(outputs)
-            #
-            #     except:
-            #         outputs = wikipedia.summary(Input, sentences=3)
-            #         talk('Gotcha')
-            #         talk('Wikipedia says')
-            #         talk(outputs)
-            #
-            #
-            # except:
-            #     talk("searching on google for " + Input)
-            #     say = Input.replace(' ', '+')
-            #     webbrowser.open('https://www.google.co.in/search?q=' + Input)
-
-
+            
